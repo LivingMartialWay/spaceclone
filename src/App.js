@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './css/icon-font.css';
 import Projects from './components/Projects'
 import Techlist from './components/Techlist'
 import Gears from './components/Gears'
