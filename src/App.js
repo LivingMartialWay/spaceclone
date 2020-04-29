@@ -6,6 +6,11 @@ import Techlist from './components/Techlist'
 import Gears from './components/Gears'
 import City from './components/City'
 import Footer from './components/Footer'
+import './fonts/BadScript-Regular.ttf'
+import './fonts/Gruppo-Regular.ttf'
+import './fonts/KumarOneOutline-Regular.ttf'
+import './fonts/Sriracha-Regular.ttf'
+import './fonts/Yellowtail-Regular.ttf'
 
 function App() {
   return (

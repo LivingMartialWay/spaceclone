@@ -6,6 +6,61 @@ import nodelogo from '../img/nodejs.png';
 import {FaGithub} from 'react-icons/fa';
 import {GrHeroku} from 'react-icons/gr';
 
+/*
+const signs6 = document.querySelectorAll("card__heading-span--1")
+const randomIn = (min, max) => (
+  Math.floor(Math.random() * (max - min + 1) + min)
+)
+
+const mixupInterval = el => {
+  const ms = randomIn(2000, 4000)
+  el.style.setProperty('--interval', `${ms}ms`)
+}
+
+signs6.forEach(el => {
+  mixupInterval(el)
+  el.addEventListener('webkitAnimationIteration', () => {
+    mixupInterval(el)
+  })
+})
+
+const signs1 = document.querySelector("card__heading-span--2")
+signs1.forEach(el => {
+  mixupInterval(el)
+  el.addEventListener('webkitAnimationIteration', () => {
+    mixupInterval(el)
+  })
+})
+const signs2 = document.querySelector("card__heading-span--3")
+signs2.forEach(el => {
+  mixupInterval(el)
+  el.addEventListener('webkitAnimationIteration', () => {
+    mixupInterval(el)
+  })
+})
+const signs3 = document.querySelector("card__heading-span--4")
+signs3.forEach(el => {
+  mixupInterval(el)
+  el.addEventListener('webkitAnimationIteration', () => {
+    mixupInterval(el)
+  })
+})
+const signs4 = document.querySelector("card__heading-span--5")
+signs4.forEach(el => {
+  mixupInterval(el)
+  el.addEventListener('webkitAnimationIteration', () => {
+    mixupInterval(el)
+  })
+})
+const signs5 = document.querySelector("card__heading-span--6")
+signs5.forEach(el => {
+  mixupInterval(el)
+  el.addEventListener('webkitAnimationIteration', () => {
+    mixupInterval(el)
+  })
+})
+*/
+
 function Projects() {
   return (
       <div className="projects">
@@ -48,7 +103,7 @@ function Projects() {
                           <h4 className="card__heading">
 
                               <span className="card__heading-span--1">
-                                  Booking Microservice
+                                  Booking Service
                               </span>
                           </h4>
                           <div className="card__details">
@@ -92,7 +147,7 @@ function Projects() {
                           </div>
                           <img src="img/bizman.gif" className="card__svg-icon card__svg-icon-6" alt=""></img>
                           <div className="card__heading">
-                              <span className="card__heading-span--6">
+                              <span className="card__heading-span--2">
                                   Elevator Live Stream
                               </span>
                           </div>
@@ -136,7 +191,7 @@ function Projects() {
                           <img src="img/chat.gif" className="card__svg-icon card__svg-icon-3" alt=""></img>
                           <div className="card__heading">
                               <span className="card__heading-span--3">
-                                  Paywall Chat and Pay
+                                  Paymoar Money
                               </span>
                           </div>
                           <div className="card__details">
@@ -227,8 +282,8 @@ function Projects() {
                                 </div>
                                 <img src="img/fire.gif" className="card__svg-icon card__svg-icon-2" alt=""></img>
                                 <div className="card__heading">
-                                    <span className="card__heading-span--2">
-                                        Instalava Picture App
+                                    <span className="card__heading-span--5">
+                                        Instalava Picture
                                     </span>
                                 </div>
                                 <div className="card__details">
@@ -271,7 +326,7 @@ function Projects() {
                                 </div>
                                 <img src="img/money.gif" className="card__svg-icon card__svg-icon-5 floating" alt=""></img>
                                 <h4 className="card__heading">
-                                    <span className="card__heading-span--5">
+                                    <span className="card__heading-span--6">
                                         Stock Trader
                                     </span>
                                 </h4>

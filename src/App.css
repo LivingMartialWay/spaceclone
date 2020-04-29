@@ -792,37 +792,6 @@ body {
   line-height: 3.5rem;
 }
 
-.card__heading-span {
-  padding: 1rem 1.5rem;
-  -webkit-box-decoration-break: clone;
-  -moz-box-decoration-break: clone;
-  box-decoration-break: clone;
-}
-
-.card__heading-span--1 {
-  background-image: linear-gradient(to right bottom, rgba(236, 160, 38, 0.9), rgba(185, 19, 19, 0.9));
-}
-
-.card__heading-span--2 {
-  background-image: linear-gradient(to right bottom, rgba(156, 18, 131, 0.9), rgba(170, 43, 21, 0.9));
-}
-
-.card__heading-span--3 {
-  background-image: linear-gradient(to right bottom, rgba(68, 178, 230, 0.9), rgba(5, 4, 77, 0.9));
-}
-
-.card__heading-span--4 {
-  background-image: linear-gradient(to right bottom, rgba(107, 51, 14, 0.9), rgba(151, 143, 28, 0.9));
-}
-
-.card__heading-span--5 {
-  background-image: linear-gradient(to right bottom, rgba(57, 107, 42, 0.9), rgba(27, 46, 33, 0.9));
-}
-
-.card__heading-span--6 {
-  background-image: linear-gradient(to right bottom, rgba(131, 131, 131, 0.9), rgba(46, 46, 46, 0.9));
-}
-
 .card__details {
   padding: 1rem 3rem;
   color: lightskyblue;
@@ -1546,5 +1515,185 @@ body {
 
   100% {
     transform: scale(1);
+  }
+}
+
+/* CRAZY
+        NEON
+            EXPERIMENTAL
+                      SHIT
+                          HERE */
+@font-face {
+  font-family: 'Yellowtail';
+  src: local('Yellowtail'), url(./fonts/Yellowtail-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Sriracha';
+  src: local('Sriracha'), url(./fonts/Sriracha-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Kumar One Outline';
+  src: local('KumarOneOutline'), url(./fonts/KumarOneOutline-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Gruppo';
+  src: local('Gruppo'), url(./fonts/Gruppo-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Bad Script';
+  src: local('BadScript'), url(./fonts/BadScript-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Monoton';
+  src: local('FiraSans'), url(./fonts/Monoton-Regular.ttf) format('truetype');
+}
+
+.card__heading-span--1 {
+  --interval: 1s;
+  display: block;
+  text-shadow:
+    0 0 10px var(--color1),
+    0 0 20px var(--color2),
+    0 0 40px var(--color3),
+    0 0 80px var(--color4);
+  will-change: filter, color;
+  filter: saturate(60%);
+  animation: flicker steps(100) var(--interval) 1s infinite;
+  padding: 1rem 1.5rem;
+  -webkit-box-decoration-break: clone;
+  -moz-box-decoration-break: clone;
+  box-decoration-break: clone;
+  color: yellow;
+  --color1: goldenrod;
+  --color2: orangered;
+  --color3: mediumblue;
+  --color4: purple;
+  font-family: Gruppo;
+}
+
+.card__heading-span--6 {
+  --interval: 1s;
+  display: block;
+  text-shadow:
+    0 0 10px var(--color1),
+    0 0 20px var(--color2),
+    0 0 40px var(--color3),
+    0 0 80px var(--color4);
+  will-change: filter, color;
+  filter: saturate(60%);
+  animation: flicker steps(100) var(--interval) 1s infinite;
+  padding: 1rem 1.5rem;
+  -webkit-box-decoration-break: clone;
+  -moz-box-decoration-break: clone;
+  box-decoration-break: clone;
+  color: lightyellow;
+  --color1: yellow;
+  --color2: lime;
+  --color3: green;
+  --color4: mediumblue;
+  font-family: Kumar One Outline;
+}
+
+.card__heading-span--3 {
+  --interval: 1s;
+  display: block;
+  text-shadow:
+    0 0 10px var(--color1),
+    0 0 20px var(--color2),
+    0 0 40px var(--color3),
+    0 0 80px var(--color4);
+  will-change: filter, color;
+  filter: saturate(60%);
+  animation: flicker steps(100) var(--interval) 1s infinite;
+  padding: 1rem 1.5rem;
+  -webkit-box-decoration-break: clone;
+  -moz-box-decoration-break: clone;
+  box-decoration-break: clone;
+  color: azure;
+  --color1: azure;
+  --color2: aqua;
+  --color3: dodgerblue;
+  --color4: blue;
+  font-family: Monoton;
+}
+
+.card__heading-span--5 {
+  --interval: 1s;
+  display: block;
+  text-shadow:
+    0 0 10px var(--color1),
+    0 0 20px var(--color2),
+    0 0 40px var(--color3),
+    0 0 80px var(--color4);
+  will-change: filter, color;
+  filter: saturate(60%);
+  animation: flicker steps(100) var(--interval) 1s infinite;
+  padding: 1rem 1.5rem;
+  -webkit-box-decoration-break: clone;
+  -moz-box-decoration-break: clone;
+  box-decoration-break: clone;
+  color: tomato;
+  --color1: orangered;
+  --color2: firebrick;
+  --color3: maroon;
+  --color4: darkred;
+  font-family: Yellowtail;
+}
+
+.card__heading-span--4 {
+  --interval: 1s;
+  display: block;
+  text-shadow:
+    0 0 10px var(--color1),
+    0 0 20px var(--color2),
+    0 0 40px var(--color3),
+    0 0 80px var(--color4);
+  will-change: filter, color;
+  filter: saturate(60%);
+  animation: flicker steps(100) var(--interval) 1s infinite;
+  padding: 1rem 1.5rem;
+  -webkit-box-decoration-break: clone;
+  -moz-box-decoration-break: clone;
+  box-decoration-break: clone;
+  color: lightyellow;
+  --color1: yellow;
+  --color2: orange;
+  --color3: brown;
+  --color4: purple;
+  font-family: Bad Script;
+}
+
+.card__heading-span--2 {
+  --interval: 1s;
+  display: block;
+  text-shadow:
+    0 0 10px var(--color1),
+    0 0 20px var(--color2),
+    0 0 40px var(--color3),
+    0 0 80px var(--color4);
+  will-change: filter, color;
+  filter: saturate(60%);
+  animation: flicker steps(100) var(--interval) 1s infinite;
+  padding: 1rem 1.5rem;
+  -webkit-box-decoration-break: clone;
+  -moz-box-decoration-break: clone;
+  box-decoration-break: clone;
+  color: lightyellow;
+  --color1: yellow;
+  --color2: gold;
+  --color3: orange;
+  --color4: darkred;
+  font-family: Sriracha;
+}
+
+@keyframes flicker {
+  50% {
+    color: white;
+    filter: saturate(200%) hue-rotate(20deg);
   }
 }
