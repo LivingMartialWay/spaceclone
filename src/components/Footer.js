@@ -1,11 +1,12 @@
 import React from 'react';
+import logo from '../img/db.png'
 
 function Footer() {
     return (
     <div className="footer">
       <div class="footer__logo-box">
           <a href="#top">
-              <img src="../img/db.png" alt="Logo" class="footer__logo smooth-goto"></img>
+              <img src={logo} alt="Logo" class="footer__logo smooth-goto"></img>
           </a>
       </div>
       <div class="row">

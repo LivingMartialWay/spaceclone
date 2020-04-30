@@ -14,7 +14,7 @@ function Gears() {
                     <span className="heading-primary--sub">Front End Engineer</span>
                 </h1>
 
-                <a href="#projects" className="btn btn--white btn--animated smooth-goto">See Projects</a>
+
             </div>
         </header>
     </div>
