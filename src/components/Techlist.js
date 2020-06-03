@@ -19,7 +19,7 @@ function Techlist() {
           <div className="u-center-text u-margin-bottom-big">
               <h2 className="heading-secondary">
                   Front End Focused
-                  <br/>With Full Stack Experience
+                  <br/>Full Stack Experience
               </h2>
           </div>
 
