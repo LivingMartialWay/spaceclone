@@ -191,15 +191,15 @@ function Projects() {
                           <img src="img/chat.gif" className="card__svg-icon card__svg-icon-3" alt=""></img>
                           <div className="card__heading">
                               <span className="card__heading-span--3">
-                                  Paymoar Money
+                                  Money Month
                               </span>
                           </div>
                           <div className="card__details">
                               <ul>
-                                  <li>React | Redux</li>
-                                  <li>Socket.io</li>
-                                  <li>Express | NodeJS</li>
-                                  <li>PostgreSQL</li>
+                                  <li>HTML5</li>
+                                  <li>JavaScript</li>
+                                  <li>CSS | SASS</li>
+                                  <li>Heroku</li>
                               </ul>
                           </div>
                       </div>
@@ -208,7 +208,7 @@ function Projects() {
                               <div className="card__box">
                                   <div className="card__description">
                                       <p>
-                                          Payment app with live messaging, notifications, friends list
+                                          Monthly budgeting application with JavaScript
                                       </p>
                                   </div>
                               </div>
@@ -238,15 +238,15 @@ function Projects() {
                               <img src="img/avo.png" className="card__svg-icon card__svg-icon-4 floating" alt=""></img>
                               <h4 className="card__heading">
                                   <span className="card__heading-span--4">
-                                      Perfect Plate
+                                      Youtube Implant
                                   </span>
                               </h4>
                               <div className="card__details">
                                   <ul>
                                       <li>React</li>
                                       <li>CSS | SASS</li>
-                                      <li>Express | NodeJS</li>
-                                      <li>mySQL</li>
+                                      <li>JavaScript</li>
+                                      <li>Youtube API</li>
                                   </ul>
                               </div>
                           </div>
@@ -283,15 +283,15 @@ function Projects() {
                                 <img src="img/fire.gif" className="card__svg-icon card__svg-icon-2" alt=""></img>
                                 <div className="card__heading">
                                     <span className="card__heading-span--5">
-                                        Instalava Picture
+                                        Top - 10 Picture
                                     </span>
                                 </div>
                                 <div className="card__details">
                                     <ul>
-                                        <li>React | Redux</li>
-                                        <li>SemanticUI</li>
-                                        <li>Express | NodeJS</li>
-                                        <li>PostgreSQL</li>
+                                        <li>React</li>
+                                        <li>JavaScript</li>
+                                        <li>Unsplash API</li>
+                                        <li>Netlify</li>
                                     </ul>
                                 </div>
                             </div>
@@ -300,7 +300,7 @@ function Projects() {
                                     <div className="card__box">
                                         <div className="card__description">
                                             <p>
-                                                Instagram-inspired picture app with feed, profiles, followers
+                                                Pintrest-inspired picture search using Unsplash API
                                             </p>
                                         </div>
                                     </div>

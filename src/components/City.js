@@ -27,8 +27,8 @@ function City() {
                         <ul>
                             <li>NodeJS</li>
                             <li>Express</li>
-                            <li>Koa</li>
-                            <li>Python</li>
+                            <li>Deno</li>
+                            <li>_</li>
                         </ul>
                     </p>
                 </div>
@@ -42,7 +42,7 @@ function City() {
                             <li>PostgreSQL</li>
                             <li>mySQL</li>
                             <li>MongoDB</li>
-                            <li>Cassandra</li>
+                            <li>-</li>
                         </ul>
                     </p>
                 </div>
@@ -55,7 +55,7 @@ function City() {
                         <ul>
                             <li>System Design</li>
                             <li>AWS ECS | SQS</li>
-                            <li>Docker</li>
+                            <li>Heroku | Netlify</li>
                             <li>Git</li>
                         </ul>
                     </p>

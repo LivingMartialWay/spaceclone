@@ -1,5 +1,8 @@
 import React from 'react';
 import logo from '../img/db.png'
+import {FaGithub} from 'react-icons/fa';
+import {GrHeroku} from 'react-icons/gr';
+import {FaWhatsapp} from 'react-icons/fa';
 
 function Footer() {
     return (
@@ -10,27 +13,13 @@ function Footer() {
           </a>
       </div>
       <div class="row">
-          <div class="col-1-of-2">
-              <div class="footer__navigation">
-                  <ul class="footer__list">
-                      <li class="footer__item">
-                          <a href="https://github.com/LivingMartialWay" class="footer__link">GitHub</a>
-                      </li>
-                      <li class="footer__item">
-                          <a href="https://www.linkedin.com/in/daniel-bach-2282b4172/" class="footer__link">LinkedIn</a>
-                      </li>
-                      <li class="footer__item">
-                          <a href="#" class="footer__link">Resume</a>
-                      </li>
-                  </ul>
-              </div>
-          </div>
-          <div class="col-1-of-2">
-              <p class="footer__copyright">
-                  Site by
-                  <a href="localhost:3000" class="footer__link"> Daniel Bach </a>
-              </p>
-          </div>
+            <div class="footer__navigation">
+                  <a class="ztn ztn-icon ztn-github" href="#"><i class="fa fa-github"></i><span>/LivingMartialWay</span></a>
+                  <a class="ztn ztn-icon ztn-pinterest" href="#"><i class="fa fa-envelope"></i><span>LivingMartialWay@gmail</span></a>
+                  <a class="ztn ztn-icon ztn-resume" href="#"><i class="fa fa-file"></i><span>Resume</span></a>
+                  <a class="ztn ztn-icon ztn-twitter" href="#"><i class="fa fa-phone"></i><span>+972.58.420.2138</span></a>
+                  <a class="ztn ztn-icon ztn-linkedin" href="#"><i class="fa fa-linkedin"></i><span>/LivingMartialWay</span></a>
+            </div>
       </div>
     </div>
     )
