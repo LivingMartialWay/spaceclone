@@ -1,8 +1,5 @@
 import React from 'react';
 import logo from '../img/db.png'
-import {FaGithub} from 'react-icons/fa';
-import {GrHeroku} from 'react-icons/gr';
-import {FaWhatsapp} from 'react-icons/fa';
 
 function Footer() {
     return (
