@@ -1,7 +1,6 @@
 import React from 'react';
 import StarfieldAnimation from 'react-starfield-animation';
 import reactlogo from '../img/react.png';
-import reactlogo2 from '../img/react2.jpg';
 import jslogo from '../img/javascript.png';
 import nodelogo from '../img/nodejs.png';
 
