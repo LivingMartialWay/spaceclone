@@ -11,10 +11,10 @@ function City() {
                     <h3 className="heading-tertiary u-margin-bottom-small">Front End</h3>
                     <p className="feature-box__text">
                         <ul>
-                            <li>HTML5</li>
-                            <li>CSS3 | SASS</li>
-                            <li>JavaScript</li>
-                            <li>React | Redux</li>
+                            <li>Redux | MobX</li>
+                            <li>React | Native</li>
+                            <li>JS (ES6 / 7..)</li>
+                            <li>SASS | LESS</li>
                         </ul>
                     </p>
                 </div>
@@ -28,7 +28,7 @@ function City() {
                             <li>NodeJS</li>
                             <li>Express</li>
                             <li>Deno</li>
-                            <li>_</li>
+                            <li>~</li>
                         </ul>
                     </p>
                 </div>
@@ -42,7 +42,7 @@ function City() {
                             <li>PostgreSQL</li>
                             <li>mySQL</li>
                             <li>MongoDB</li>
-                            <li>-</li>
+                            <li>FireBase</li>
                         </ul>
                     </p>
                 </div>

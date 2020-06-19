@@ -295,6 +295,7 @@ body {
 }
 
 .section-about {
+  color: #f9f7fa;
   padding-top: 10rem;
   padding-bottom: 20rem
 }
@@ -1442,6 +1443,7 @@ body {
 }
 
 .hover .social-link {
+  font-family: 'Roboto';
   position: relative;
   display: flex;
   align-items: center;
@@ -1449,7 +1451,7 @@ body {
   width: 50%;
   height: 100%;
   color: whitesmoke;
-  font-size: 40px;
+  font-size: 32px;
   text-decoration: none;
   transition: 0.25s;
 }
@@ -1768,11 +1770,11 @@ body {
 
 /*Resume*/
 .ztn-resume:hover>i, .ztn-resume:focus>i {
-  color: #A7A6BA
+  color: #B768A2
 }
 
 .ztn-resume>span {
-  background: #A7A6BA
+  background: #B768A2
 }
 
 /*Twitter*/
@@ -1795,11 +1797,11 @@ body {
 
 /*Pinterest*/
 .ztn-pinterest:hover>i, .ztn-pinterest:focus>i {
-  color: #B768A2
+  color: #674a75
 }
 
 .ztn-pinterest>span {
-  background: #B768A2
+  background: #674a75
 }
 
 /*LinkedIn*/

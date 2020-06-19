@@ -5,7 +5,7 @@ import jslogo from '../img/javascript.png';
 import nodelogo from '../img/nodejs.png';
 import {FaGithub} from 'react-icons/fa';
 import {GrHeroku} from 'react-icons/gr';
-
+import {GoBrowser} from 'react-icons/go';
 /*
 const signs6 = document.querySelectorAll("card__heading-span--1")
 const randomIn = (min, max) => (
@@ -103,15 +103,15 @@ function Projects() {
                           <h4 className="card__heading">
 
                               <span className="card__heading-span--1">
-                                  Booking Service
+                                  YouTube Redux
                               </span>
                           </h4>
                           <div className="card__details">
                               <ul>
-                                  <li>AWS SQS</li>
-                                  <li>Docker</li>
+                                  <li>React Redux</li>
                                   <li>NodeJS</li>
-                                  <li>Cassandra</li>
+                                  <li>React Router</li>
+                                  <li>CSS / SASS</li>
                               </ul>
                           </div>
                       </div>
@@ -122,16 +122,16 @@ function Projects() {
                               <div className="card__box">
                                   <div className="card__description">
                                       <p>
-                                          A back-end booking system, handles 1500+ requests / sec
+                                          Redux Refactor to optimize Ad-free YouTube via Brave
                                       </p>
                                   </div>
                               </div>
                                 <div className="hover">
                                   <span>Explore</span>
-                                  <a className="social-link" href="https://codepen.io/joshuaward/" target="_blank">
-                                    <GrHeroku />
+                                  <a className="social-link" href="https://dans-redux-darktube.netlify.app/" target="_blank">
+                                    <GoBrowser />
                                   </a>
-                                  <a className="social-link" href="https://github.com/joshuaward" target="_blank">
+                                  <a className="social-link" href="https://github.com/LivingMartialWay/video_browser" target="_blank">
                                     <FaGithub />
                                   </a>
                                 </div>
@@ -148,15 +148,15 @@ function Projects() {
                           <img src="img/bizman.gif" className="card__svg-icon card__svg-icon-6" alt=""></img>
                           <div className="card__heading">
                               <span className="card__heading-span--2">
-                                  Elevator Live Stream
+                                  Chess 2p <br/>(W/ Hooks)
                               </span>
                           </div>
                           <div className="card__details">
                               <ul>
-                                  <li>React | Redux</li>
-                                  <li>CSS</li>
-                                  <li>Express | NodeJS</li>
-                                  <li>Tokbox API</li>
+                                  <li>React Redux</li>
+                                  <li>Hooks</li>
+                                  <li>NodeJS</li>
+                                  <li>FireBase</li>
                               </ul>
                           </div>
                       </div>
@@ -165,16 +165,16 @@ function Projects() {
                               <div className="card__box">
                                   <div className="card__description">
                                       <p>
-                                          Fully functional live stream app to practice elevator pitches
+                                          2-Person Chess (live) with React Hooks, Firebase, & Github Auth
                                       </p>
                                   </div>
                               </div>
                               <div className="hover">
                                 <span>Explore</span>
-                                <a className="social-link" href="https://codepen.io/joshuaward/" target="_blank">
-                                  <GrHeroku />
+                                <a className="social-link" href="https://dans-chess.netlify.app/" target="_blank">
+                                  <GoBrowser />
                                 </a>
-                                <a className="social-link" href="https://github.com/joshuaward" target="_blank">
+                                <a className="social-link" href="https://github.com/LivingMartialWay/chess" target="_blank">
                                   <FaGithub />
                                 </a>
                               </div>
@@ -199,7 +199,7 @@ function Projects() {
                                   <li>HTML5</li>
                                   <li>JavaScript</li>
                                   <li>CSS | SASS</li>
-                                  <li>Heroku</li>
+                                  <li>Continuous Deployment</li>
                               </ul>
                           </div>
                       </div>
@@ -208,16 +208,16 @@ function Projects() {
                               <div className="card__box">
                                   <div className="card__description">
                                       <p>
-                                          Monthly budgeting application with JavaScript
+                                          Monthly budgeting application with JavaScript, HTML, and CSS/SASS configured with Netlify continuous deployment
                                       </p>
                                   </div>
                               </div>
                               <div className="hover">
                                 <span>Explore</span>
-                                <a className="social-link" href="https://codepen.io/joshuaward/" target="_blank">
-                                  <GrHeroku />
+                                <a className="social-link" href="https://dans-monthly-budget.netlify.app/" target="_blank">
+                                  <GoBrowser />
                                 </a>
-                                <a className="social-link" href="https://github.com/joshuaward" target="_blank">
+                                <a className="social-link" href="https://github.com/LivingMartialWay/BudgetCalc" target="_blank">
                                   <FaGithub />
                                 </a>
                               </div>
@@ -238,7 +238,7 @@ function Projects() {
                               <img src="img/avo.png" className="card__svg-icon card__svg-icon-4 floating" alt=""></img>
                               <h4 className="card__heading">
                                   <span className="card__heading-span--4">
-                                      Youtube Implant
+                                      Dark Youtube
                                   </span>
                               </h4>
                               <div className="card__details">
@@ -255,16 +255,16 @@ function Projects() {
                                   <div className="card__box">
                                       <div className="card__description">
                                           <p>
-                                              Data populated and cached with REST API calls to USDA database
+                                              Dark Themed Youtube made with React
                                           </p>
                                       </div>
                                   </div>
                                   <div className="hover">
                                     <span>Explore</span>
-                                    <a className="social-link" href="https://codepen.io/joshuaward/" target="_blank">
-                                      <GrHeroku />
+                                    <a className="social-link" href="https://dans-darktube.netlify.app/" target="_blank">
+                                      <GoBrowser />
                                     </a>
-                                    <a className="social-link" href="https://github.com/joshuaward" target="_blank">
+                                    <a className="social-link" href="https://github.com/LivingMartialWay/YTApiDemo" target="_blank">
                                       <FaGithub />
                                     </a>
                                   </div>
@@ -291,7 +291,7 @@ function Projects() {
                                         <li>React</li>
                                         <li>JavaScript</li>
                                         <li>Unsplash API</li>
-                                        <li>Netlify</li>
+                                        <li>CSS | SASS</li>
                                     </ul>
                                 </div>
                             </div>
@@ -306,10 +306,10 @@ function Projects() {
                                     </div>
                                     <div className="hover">
                                       <span>Explore</span>
-                                      <a className="social-link" href="https://codepen.io/joshuaward/" target="_blank">
-                                        <GrHeroku />
+                                      <a className="social-link" href="https://dans-top10-imagesearch.netlify.app/" target="_blank">
+                                        <GoBrowser />
                                       </a>
-                                      <a className="social-link" href="https://github.com/joshuaward" target="_blank">
+                                      <a className="social-link" href="https://github.com/LivingMartialWay/imgsrch" target="_blank">
                                         <FaGithub />
                                       </a>
                                     </div>
@@ -327,15 +327,15 @@ function Projects() {
                                 <img src="img/money.gif" className="card__svg-icon card__svg-icon-5 floating" alt=""></img>
                                 <h4 className="card__heading">
                                     <span className="card__heading-span--6">
-                                        Stock Trader
+                                        Weather Forecast
                                     </span>
                                 </h4>
                                 <div className="card__details">
                                     <ul>
-                                        <li>Django</li>
-                                        <li>CSS</li>
-                                        <li>Python</li>
-                                        <li>Jinja</li>
+                                        <li>React Redux</li>
+                                        <li>Hooks</li>
+                                        <li>Google Maps</li>
+                                        <li>JavaScript</li>
                                     </ul>
                                 </div>
                             </div>
@@ -344,16 +344,16 @@ function Projects() {
                                     <div className="card__box">
                                         <div className="card__description">
                                             <p>
-                                                Stock data pulled in real time from Yahoo Finance API
+                                                Google-Maps integrated, Five Day Weather forecast
                                             </p>
                                         </div>
                                     </div>
                                     <div className="hover">
                                       <span>Explore</span>
-                                      <a className="social-link" href="https://codepen.io/joshuaward/" target="_blank">
-                                        <GrHeroku />
+                                      <a className="social-link" href="https://dans-weather-forecast.netlify.app/" target="_blank">
+                                        <GoBrowser />
                                       </a>
-                                      <a className="social-link" href="https://github.com/joshuaward" target="_blank">
+                                      <a className="social-link" href="https://github.com/LivingMartialWay/weather" target="_blank">
                                         <FaGithub />
                                       </a>
                                     </div>
