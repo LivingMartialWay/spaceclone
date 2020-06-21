@@ -1,7 +1,6 @@
 import React from 'react';
 import Particles from 'react-particles-js';
 import {FaGithub} from 'react-icons/fa';
-import {GrHeroku} from 'react-icons/gr';
 import {GoBrowser} from 'react-icons/go';
 /*
 const signs6 = document.querySelectorAll("card__heading-span--1")
@@ -125,10 +124,10 @@ function Projects() {
                               </div>
                                 <div className="hover">
                                   <span>Explore</span>
-                                  <a className="social-link" href="https://dans-redux-darktube.netlify.app/" target="_blank">
+                                  <a className="social-link" href="https://dans-redux-darktube.netlify.app/" target="_blank" rel="noopener noreferrer">
                                     <GoBrowser />
                                   </a>
-                                  <a className="social-link" href="https://github.com/LivingMartialWay/video_browser" target="_blank">
+                                  <a className="social-link" href="https://github.com/LivingMartialWay/video_browser" target="_blank" rel="noopener noreferrer">
                                     <FaGithub />
                                   </a>
                                 </div>
@@ -168,10 +167,10 @@ function Projects() {
                               </div>
                               <div className="hover">
                                 <span>Explore</span>
-                                <a className="social-link" href="https://dans-chess.netlify.app/" target="_blank">
+                                <a className="social-link" href="https://dans-chess.netlify.app/" target="_blank" rel="noopener noreferrer">
                                   <GoBrowser />
                                 </a>
-                                <a className="social-link" href="https://github.com/LivingMartialWay/chess" target="_blank">
+                                <a className="social-link" href="https://github.com/LivingMartialWay/chess" target="_blank" rel="noopener noreferrer">
                                   <FaGithub />
                                 </a>
                               </div>
@@ -211,10 +210,10 @@ function Projects() {
                               </div>
                               <div className="hover">
                                 <span>Explore</span>
-                                <a className="social-link" href="https://dans-monthly-budget.netlify.app/" target="_blank">
+                                <a className="social-link" href="https://dans-monthly-budget.netlify.app/" target="_blank" rel="noopener noreferrer">
                                   <GoBrowser />
                                 </a>
-                                <a className="social-link" href="https://github.com/LivingMartialWay/BudgetCalc" target="_blank">
+                                <a className="social-link" href="https://github.com/LivingMartialWay/BudgetCalc" target="_blank" rel="noopener noreferrer">
                                   <FaGithub />
                                 </a>
                               </div>
@@ -258,10 +257,10 @@ function Projects() {
                                   </div>
                                   <div className="hover">
                                     <span>Explore</span>
-                                    <a className="social-link" href="https://dans-darktube.netlify.app/" target="_blank">
+                                    <a className="social-link" href="https://dans-darktube.netlify.app/" target="_blank" rel="noopener noreferrer">
                                       <GoBrowser />
                                     </a>
-                                    <a className="social-link" href="https://github.com/LivingMartialWay/YTApiDemo" target="_blank">
+                                    <a className="social-link" href="https://github.com/LivingMartialWay/YTApiDemo" target="_blank" rel="noopener noreferrer">
                                       <FaGithub />
                                     </a>
                                   </div>
@@ -303,10 +302,10 @@ function Projects() {
                                     </div>
                                     <div className="hover">
                                       <span>Explore</span>
-                                      <a className="social-link" href="https://dans-top10-imagesearch.netlify.app/" target="_blank">
+                                      <a className="social-link" href="https://dans-top10-imagesearch.netlify.app/" target="_blank" rel="noopener noreferrer">
                                         <GoBrowser />
                                       </a>
-                                      <a className="social-link" href="https://github.com/LivingMartialWay/imgsrch" target="_blank">
+                                      <a className="social-link" href="https://github.com/LivingMartialWay/imgsrch" target="_blank" rel="noopener noreferrer">
                                         <FaGithub />
                                       </a>
                                     </div>
@@ -347,10 +346,10 @@ function Projects() {
                                     </div>
                                     <div className="hover">
                                       <span>Explore</span>
-                                      <a className="social-link" href="https://dans-weather-forecast.netlify.app/" target="_blank">
+                                      <a className="social-link" href="https://dans-weather-forecast.netlify.app/" target="_blank" rel="noopener noreferrer">
                                         <GoBrowser />
                                       </a>
-                                      <a className="social-link" href="https://github.com/LivingMartialWay/weather" target="_blank">
+                                      <a className="social-link" href="https://github.com/LivingMartialWay/weather" target="_blank" rel="noopener noreferrer">
                                         <FaGithub />
                                       </a>
                                     </div>
