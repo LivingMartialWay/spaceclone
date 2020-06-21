@@ -8,6 +8,7 @@ function Techlist() {
     return (
     <div className="Techlist">
       <StarfieldAnimation
+        numStars={666}
         style={{
           position: 'absolute',
           width: '100%',
